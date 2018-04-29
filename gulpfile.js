@@ -40,23 +40,23 @@ gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
  * Compile files from _scss into both _site/css (for live injecting) and site (for future jekyll builds)
  */
 gulp.task('sass', function () {
-    return gulp.src('_scss/main.scss')
+    return gulp.src('assets/css/main.scss') // Make sure these paths match up. 
         .pipe(sass({
-            includePaths: ['scss'],
+            includePaths: ['assets/css'],
             onError: browserSync.notify
         }))
         .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
-        .pipe(gulp.dest('_site/css'))
+        .pipe(gulp.dest('_site/assets/css'))
         .pipe(browserSync.reload({stream:true}))
-        .pipe(gulp.dest('css'));
+        .pipe(gulp.dest('assets/css')); // Make sure these paths match up.
 });
 
 /**
  * Watch scss files for changes & recompile
  * Watch html/md files, run jekyll & reload BrowserSync
  */
-gulp.task('watch', function () {
-    gulp.watch('_scss/*.scss', ['sass']);
+gulp.task('watch', function () { // HEY YOU. Make sure these paths match up. This is what controls watch.
+    gulp.watch('assets/css/*.scss', ['sass']); 
     gulp.watch(['*.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
 });
 
