@@ -3,20 +3,22 @@ layout: default
 title: HagenDev
 ---
 <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
-  <a class="navbar-brand" href="#">HagenDev</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-    aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="#">Home
-        <span class="sr-only">(current)</span>
-      </a>
-      <a class="nav-item nav-link" href="#">About</a>
-      <a class="nav-item nav-link" href="#">Portfolio</a>
-      <a class="nav-item nav-link" href="#">Blog</a>
-      <a class="nav-item nav-link" href="#">Contact</a>
+  <div class="container">
+    <a class="navbar-brand" href="#">HagenDev</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#">Home
+          <span class="sr-only">(current)</span>
+        </a>
+        <a class="nav-item nav-link" href="#">About</a>
+        <a class="nav-item nav-link" href="#">Portfolio</a>
+        <a class="nav-item nav-link" href="#">Blog</a>
+        <a class="nav-item nav-link" href="#">Contact</a>
+      </div>
     </div>
   </div>
 </nav>
@@ -27,7 +29,7 @@ title: HagenDev
     <p class="lead">A pretty cool guy</p>
   </section> <!-- .hero -->
 
-  <section class="about py-5">
+  <section class="about">
     <div class="row">
       <div class="col-sm-6">
         <h3 class="display-4">About Me</h3>
@@ -41,4 +43,16 @@ title: HagenDev
       </div> <!-- .col -->
     </div> <!-- .row -->
   </section> <!-- .about -->
+
+  <section class="blog py-5">
+    <h3 class="display-4 text-center">Blog</h3>
+    <ul>
+      {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+
 </div> <!-- .container -->

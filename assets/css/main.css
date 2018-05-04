@@ -299,3 +299,6 @@ template {
 
 body {
   height: 2000px; }
+
+section {
+  height: 50vh; }
