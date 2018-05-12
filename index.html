@@ -2,57 +2,85 @@
 layout: default
 title: HagenDev
 ---
-<nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
-  <div class="container">
-    <a class="navbar-brand" href="#">HagenDev</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="#">Home
-          <span class="sr-only">(current)</span>
-        </a>
-        <a class="nav-item nav-link" href="#">About</a>
-        <a class="nav-item nav-link" href="#">Portfolio</a>
-        <a class="nav-item nav-link" href="#">Blog</a>
-        <a class="nav-item nav-link" href="#">Contact</a>
-      </div>
-    </div>
-  </div>
-</nav>
-
 <div class="container">
   <section class="hero text-center">
-    <h1 class="display-3">HagenDev</h1>
-    <p class="lead">A pretty cool guy</p>
+    <p class="lead">The personal website of</p>
+    <h1 class="display-4">Casey Hagen</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Timeline</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
   </section> <!-- .hero -->
-
+  
   <section class="about">
-    <div class="row">
-      <div class="col-sm-6">
-        <h3 class="display-4">About Me</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit pariatur laudantium adipisci! Nesciunt animi fuga consectetur sunt illum voluptas optio itaque modi, eum tempore quo esse eius saepe temporibus. Minima.
-        </p>
-      </div> <!-- .col -->
-
-      <div class="col-sm-6">
-        <img src="/assets/img/profile-photo.jpg" alt="Awesome photo of Casey Hagen playing chess" class="img-fluid">
-      </div> <!-- .col -->
-    </div> <!-- .row -->
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic tempore, quo ipsam, neque vero illo iusto culpa veniam quaerat placeat porro ad sint consequatur laborum cumque! Odio libero ut suscipit!
+    </p>
+  
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic tempore, quo ipsam, neque vero illo iusto culpa veniam quaerat
+      placeat porro ad sint consequatur laborum cumque! Odio libero ut suscipit!
+    </p>
+  
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic tempore, quo ipsam, neque vero illo iusto culpa veniam quaerat
+      placeat porro ad sint consequatur laborum cumque! Odio libero ut suscipit!
+    </p>
   </section> <!-- .about -->
+  
+  <section class="cta">
+    <h2>Things I Want You to Do:</h2>
+  
+    <div class="cta-block">
+      <p>
+        Here's some cool things that I do. <a href="#">Check it out.</a>
+      </p>
+    </div> <!-- .cta-block -->
+  
+    <div class="cta-block">
+      <p>
+        Here's some cool things that I do.
+        <a href="#">Check it out.</a>
+      </p>
+    </div> <!-- .cta-block -->
+  
+    <div class="cta-block">
+      <p>
+        Here's some cool things that I do.
+        <a href="#">Check it out.</a>
+      </p>
+    </div> <!-- .cta-block -->
+  
+    <div class="cta-block">
+      <p>
+        Here's some cool things that I do.
+        <a href="#">Check it out.</a>
+      </p>
+    </div> <!-- .cta-block -->
+  
+  </section> <!-- .cta -->
 
-  <section class="blog py-5">
-    <h3 class="display-4 text-center">Blog</h3>
-    <ul>
-      {% for post in site.posts %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-      {% endfor %}
-    </ul>
+  <section class="footer">
+    <div class="row">
+      <div class="col-xs-6">
+        <ul>
+          <li><a href="mailto:casey@hagendev.com">casey@hagendev.com</a></li>
+          <li><a href="#">GitHub</a></li>
+          <li><a href="#">Twitter</a></li>
+        </ul>
+      </div> <!-- .col -->
+      <div class="col-xs-6">
+        <ul>
+          <li><a href="#">CodePen</a></li>
+          <li><a href="#">FreeCodeCamp</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
   </section>
 
 </div> <!-- .container -->

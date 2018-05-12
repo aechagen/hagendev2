@@ -4,8 +4,25 @@
 
 body {
   height: 2000px;
+  background: darkgrey;
 }
 
-section {
-  height: 50vh;
+// Section: Hero
+
+section.hero {
+  padding-top: 15px;
+  h1 { text-transform: uppercase; }
+  p { font-style: italic; }
+  // White space not white space
+  nav {
+    ul { 
+      list-style: none; 
+      li {
+        display: inline;
+        padding: 5px;
+      }
+    }
+  } // Was that too much nesting?
 }
+
+// Section: About

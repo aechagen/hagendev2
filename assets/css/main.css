@@ -298,7 +298,17 @@ template {
   display: none; }
 
 body {
-  height: 2000px; }
+  height: 2000px;
+  background: darkgrey; }
 
-section {
-  height: 50vh; }
+section.hero {
+  padding-top: 15px; }
+  section.hero h1 {
+    text-transform: uppercase; }
+  section.hero p {
+    font-style: italic; }
+  section.hero nav ul {
+    list-style: none; }
+    section.hero nav ul li {
+      display: inline;
+      padding: 5px; }
