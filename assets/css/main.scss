@@ -2,77 +2,8 @@
 
 // Aaaand... Go!
 
-body {
-  padding-bottom: 75px;
-  background: #0C0F13;
-}
+// Variables
 
-.container {
-  max-width: 768px;
-}
-// Section: Hero
-
-section.hero {
-  padding-top: 15px;
-  h1 { 
-    text-transform: uppercase;
-    color: orange; 
-  }
-  p { 
-    font-style: italic;
-    color: white; 
-  }
-  // White space not white space
-  nav {
-    ul { 
-      list-style: none; 
-      li {
-        display: inline;
-        padding: 5px;
-      }
-    }
-  } // Was that too much nesting?
-}
-
-// Section: About
-
-section.about {
-  color: #ccc;
-}
-
-// Section: Call to Action
-
-section .cta {
-  text-align: center;
-}
-
-.cta-block {
-  background: orange; // Change this, lol.
-  font-size: 1.4em;
-  p {
-    padding: 50px;
-    margin: 15px;
-  }
-}
-
-// Footer styles
-
-.container-fluid { // Makes it width 100% of screen
-  padding-left: 0;
-  padding-right: 0;
-}
-
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  background: rgba(0,0,0,0.9);
-  text-align: center;
-  width: 100%;
-  opacity: 0.9;
-  ul { list-style: none; }
-  li {
-    display: inline;
-    padding: 7.5px;
-  }
-}
+$background: #A9A9A9;
+$text-color: #EFEFEF;
+$accent-color: #FF3B3F;
