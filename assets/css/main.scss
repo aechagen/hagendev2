@@ -22,6 +22,7 @@ body {
 .container {
   max-width: 568px;
   padding: 25px;
+  margin-bottom: 50px;
 }
 
 // Header styles
@@ -50,11 +51,29 @@ header {
 .cta-blocks {
   h2 {
     text-align: center;
+    padding: 2rem 0 2rem 0;
+    text-transform: uppercase;
+    font-weight: bold;
   }
   .block {
       background: orange; // Change this, fool.
       font-size: 1.4rem;
       padding: 2rem;
       margin: 0 0 1rem 0; // top, right, bottom, left
+  }
+}
+
+// Footer styles
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(1, 3, 15, 0.486);
+  text-align: center;
+  padding: 1rem;
+  a {
+    padding: 5px;
   }
 }
