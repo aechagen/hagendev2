@@ -4,6 +4,57 @@
 
 // Variables
 
-$background: #A9A9A9;
+$background-color: #A9A9A9;
 $text-color: #EFEFEF;
 $accent-color: #FF3B3F;
+
+// General styles
+
+body {
+  background: $background-color;
+  color: $text-color;
+  a {
+    color: $accent-color;
+  }
+}
+
+
+.container {
+  max-width: 568px;
+  padding: 25px;
+}
+
+// Header styles
+
+header {
+  text-align: center;
+  span {
+    font-style: italic;
+  }
+  h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.35rem;
+  }
+  a {
+    padding: 0.3rem;
+  }
+}
+
+// Main styles
+
+.about-area {
+  padding-top: 2rem;
+}
+
+.cta-blocks {
+  h2 {
+    text-align: center;
+  }
+  .block {
+      background: orange; // Change this, fool.
+      font-size: 1.4rem;
+      padding: 2rem;
+      margin: 0 0 1rem 0; // top, right, bottom, left
+  }
+}

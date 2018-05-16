@@ -296,3 +296,36 @@ template {
  */
 [hidden] {
   display: none; }
+
+body {
+  background: #A9A9A9;
+  color: #EFEFEF; }
+  body a {
+    color: #FF3B3F; }
+
+.container {
+  max-width: 568px;
+  padding: 25px; }
+
+header {
+  text-align: center; }
+  header span {
+    font-style: italic; }
+  header h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.35rem; }
+  header a {
+    padding: 0.3rem; }
+
+.about-area {
+  padding-top: 2rem; }
+
+.cta-blocks h2 {
+  text-align: center; }
+
+.cta-blocks .block {
+  background: orange;
+  font-size: 1.4rem;
+  padding: 2rem;
+  margin: 0 0 1rem 0; }
