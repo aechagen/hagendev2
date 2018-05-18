@@ -4,17 +4,25 @@
 
 // Variables
 
-$background-color: #A9A9A9;
-$text-color: #EFEFEF;
-$accent-color: #FF3B3F;
+$background-color: #0b0c10;
+$text-color: white;
+$accent-color: #ccfcf1;
+$text-font: 'Crete Round', serif;
+$header-font: 'Ledger', serif;
 
 // General styles
 
 body {
   background: $background-color;
   color: $text-color;
+  font-family: $text-font;
   a {
     color: $accent-color;
+    &:hover { color: white; }
+  }
+
+  h1,h2 {
+    font-family: $header-font;
   }
 }
 
@@ -33,6 +41,7 @@ header {
     font-style: italic;
   }
   h1 {
+    color: #66fcf1;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.35rem;
@@ -50,13 +59,14 @@ header {
 
 .cta-blocks {
   h2 {
+    color: #66FCF1;
     text-align: center;
     padding: 2rem 0 2rem 0;
     text-transform: uppercase;
     font-weight: bold;
   }
   .block {
-      background: orange; // Change this, fool.
+      background: #45A29E; // Change this, fool.
       font-size: 1.4rem;
       padding: 2rem;
       margin: 0 0 1rem 0; // top, right, bottom, left

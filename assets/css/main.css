@@ -298,10 +298,15 @@ template {
   display: none; }
 
 body {
-  background: #A9A9A9;
-  color: #EFEFEF; }
+  background: #0b0c10;
+  color: white;
+  font-family: "Crete Round", serif; }
   body a {
-    color: #FF3B3F; }
+    color: #ccfcf1; }
+    body a:hover {
+      color: white; }
+  body h1, body h2 {
+    font-family: "Ledger", serif; }
 
 .container {
   max-width: 568px;
@@ -313,6 +318,7 @@ header {
   header span {
     font-style: italic; }
   header h1 {
+    color: #66fcf1;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.35rem; }
@@ -323,13 +329,14 @@ header {
   padding-top: 2rem; }
 
 .cta-blocks h2 {
+  color: #66FCF1;
   text-align: center;
   padding: 2rem 0 2rem 0;
   text-transform: uppercase;
   font-weight: bold; }
 
 .cta-blocks .block {
-  background: orange;
+  background: #45A29E;
   font-size: 1.4rem;
   padding: 2rem;
   margin: 0 0 1rem 0; }
