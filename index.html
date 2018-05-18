@@ -2,19 +2,8 @@
 layout: default
 title: HagenDev
 ---
-<div class="container">
-  <header>
-    <span>The personal website of</span>
-    <h1>Casey Hagen</h1>
-    <nav>
-      <a href="#">About</a>
-      <a href="#">Blog</a>
-      <a href="#">Portfolio</a>
-      <a href="#">Contact</a>
-    </nav>
-  </header>
-  
-  <main>
+{% include header.html %}
+
     <div class="about-area">
       <p>
         Hi there! I'm a Hospital Corpsman in the Navy that loves web design &amp; development.
@@ -56,13 +45,4 @@ title: HagenDev
       </div>
     </div> <!-- .row -->
   </main> 
-</div> <!-- .container -->
-
-<footer>
-  <a href="mailto:casey@hagendev.com">casey@hagendev.com</a>
-  <a href="#">GitHub</a>
-  <a href="#">Twitter</a>
-  <a href="#">CodePen</a>
-  <a href="#">Chess.com</a>
-  <a href="#">FreeCodeCamp</a>
-</footer>
+{% include footer.html %}
