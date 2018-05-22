@@ -2,24 +2,33 @@
 layout: default
 title: HagenDev
 ---
-<div class="container">
-  <header>
+<header>
+  <div class="container-fluid">
     <div class="branding">
       <h4>Casey Hagen</h4>
       <span>Front-end Developer</span>
     </div> <!-- .branding -->
     <nav>
-      <a href="#">About</a>
-      <a href="#">Portfolio</a>
-      <a href="#">Blog</a>
-      <a href="#">Contact</a>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
     </nav>
+  </div> <!-- .container -->
+</header>
 
+<main>
+  <div class="container">
     <div class="hero">
       <h1>Front-End Developer</h1>
       <p>Just another guy learning web</p>
       <a href="#">View Portfolio</a>
     </div> <!-- .hero -->
+    
 
-  </header>
-</div> <!-- .container -->
+  </div> <!-- .container -->
+</main>
+
+{% include footer.html %}
