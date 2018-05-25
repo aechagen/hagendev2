@@ -13,3 +13,53 @@ $header-font: 'Ledger', serif;
 
 // General styles
 
+body {
+  background: $background-color;
+  color: $text-color;
+}
+.container {
+  max-width: 668px;
+  padding: 25px;
+}
+
+// Header styles
+
+header {
+  color: $text-color;
+  text-align: center;
+  nav a {
+    color: $text-color;
+    padding: 0.35rem;
+  }
+}
+
+// CTA Section
+
+.cta {
+  h2 { text-align: center; }
+  .cta-block {
+    text-align: left;
+    background: white;
+    color: $footer-background;
+    margin: 0 0 1rem 0;
+    padding: 2rem;
+    font-size: 1.4rem;
+  }
+}
+
+// Footer
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background: $footer-background;
+  opacity: 0.85;
+  padding: 0.75rem;
+  nav a {
+    padding: 0.35rem;
+    color: $text-color;
+  }
+}
