@@ -8,30 +8,41 @@ $background-color: #2597D0;
 $text-color: white;
 $accent-color: #0C5F8B;
 $footer-background: #272727;
-$text-font: 'Crete Round', serif;
-$header-font: 'Ledger', serif;
+$header-font: 'Crete Round', serif;
+$text-font: 'Ledger', serif;
 
 // General styles
 
 body {
-  background: $background-color;
+  background: $footer-background;
   color: $text-color;
+  font-family: $text-font;
 }
 .container {
   max-width: 668px;
   padding: 25px;
 }
 
+h1,h2 {
+  font-family: $header-font;
+  text-transform: uppercase;
+  letter-spacing: 0.10rem;
+}
 // Header styles
 
 header {
   color: $text-color;
   text-align: center;
   nav a {
-    color: $text-color;
+    color: $background-color;
     padding: 0.35rem;
+    font-size: 1.2rem;
   }
 }
+
+// About Section
+
+
 
 // CTA Section
 
@@ -39,9 +50,9 @@ header {
   h2 { text-align: center; }
   .cta-block {
     text-align: left;
-    background: white;
-    color: $footer-background;
-    margin: 0 0 1rem 0;
+    background: $background-color;
+    color: $text-color;
+    margin: 1.5rem 0 2.5rem 0;
     padding: 2rem;
     font-size: 1.4rem;
   }

@@ -298,28 +298,35 @@ template {
   display: none; }
 
 body {
-  background: #2597D0;
-  color: white; }
+  background: #272727;
+  color: white;
+  font-family: "Ledger", serif; }
 
 .container {
   max-width: 668px;
   padding: 25px; }
 
+h1, h2 {
+  font-family: "Crete Round", serif;
+  text-transform: uppercase;
+  letter-spacing: 0.10rem; }
+
 header {
   color: white;
   text-align: center; }
   header nav a {
-    color: white;
-    padding: 0.35rem; }
+    color: #2597D0;
+    padding: 0.35rem;
+    font-size: 1.2rem; }
 
 .cta h2 {
   text-align: center; }
 
 .cta .cta-block {
   text-align: left;
-  background: white;
-  color: #272727;
-  margin: 0 0 1rem 0;
+  background: #2597D0;
+  color: white;
+  margin: 1.5rem 0 2.5rem 0;
   padding: 2rem;
   font-size: 1.4rem; }
 
