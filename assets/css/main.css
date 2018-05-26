@@ -311,24 +311,19 @@ h1, h2 {
   text-transform: uppercase;
   letter-spacing: 0.10rem; }
 
-a {
-  font-size: 1.1rem; }
-
 header {
   color: white;
   text-align: center; }
-
-nav a {
-  color: #2597D0;
-  padding: 0.35rem;
-  font-size: 1.2rem; }
-
-.homepage-title {
-  font-size: 3rem; }
-  .homepage-title a {
-    font-weight: 700;
-    font-size: 3rem;
-    color: #0C5F8B; }
+  header nav a {
+    color: #0C5F8B;
+    padding: 0.35rem;
+    font-size: 1.2rem; }
+  header .homepage-title {
+    font-size: 3rem; }
+    header .homepage-title a {
+      font-weight: 700;
+      font-size: 3rem;
+      color: #0C5F8B; }
 
 .cta h2 {
   text-align: center; }

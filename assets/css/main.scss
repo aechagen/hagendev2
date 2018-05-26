@@ -29,29 +29,26 @@ h1,h2 {
   letter-spacing: 0.10rem;
 }
 
-a {
-  font-size: 1.1rem;
-}
 // Header styles
 
 header {
   color: $text-color;
-  text-align: center;}
-
-nav a {
-  color: $background-color;
-  padding: 0.35rem;
-  font-size: 1.2rem;
-}
-
-.homepage-title {
-  font-size: 3rem;
-  a {
-    font-weight: 700;
-    font-size: 3rem;
+  text-align: center;
+  nav a {
     color: $accent-color;
+    padding: 0.35rem;
+    font-size: 1.2rem;
+  }
+  .homepage-title {
+    font-size: 3rem;
+    a {
+      font-weight: 700;
+      font-size: 3rem;
+      color: $accent-color;
+    }
   }
 }
+
 
 // About Section
 
