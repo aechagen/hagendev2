@@ -348,3 +348,7 @@ footer {
   footer nav a {
     padding: 0.35rem;
     color: #0C5F8B; }
+
+.spacer {
+  height: 2rem;
+  width: 100%; }
