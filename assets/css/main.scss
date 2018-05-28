@@ -29,22 +29,31 @@ h1,h2 {
   letter-spacing: 0.10rem;
 }
 
+a {
+  color: $background-color;
+}
+
 // Header styles
 
 header {
   color: $text-color;
   text-align: center;
+  span {
+    font-style: italic;
+    font-weight: 400;
+  }
   nav a {
-    color: $accent-color;
+    color: $background-color;
     padding: 0.35rem;
     font-size: 1.2rem;
   }
   .homepage-title {
     font-size: 3rem;
+    margin-top: 0;
     a {
       font-weight: 700;
       font-size: 3rem;
-      color: $accent-color;
+      color: $background-color;
     }
   }
 }
@@ -60,7 +69,7 @@ header {
   h2 { text-align: center; }
   .cta-block {
     text-align: left;
-    background: $background-color;
+    background: $accent-color;
     color: $text-color;
     margin: 1.5rem 0 2.5rem 0;
     padding: 2rem;
@@ -81,7 +90,7 @@ footer {
   padding: 0.75rem;
   nav a {
     padding: 0.35rem;
-    color: $accent-color;
+    color: $background-color;
   }
 }
 
@@ -91,5 +100,12 @@ footer {
   height: 2rem;
   width: 100%;
 }
+
+article a {
+  color: $background-color;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
 
 // Portfolio Page

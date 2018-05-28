@@ -311,26 +311,33 @@ h1, h2 {
   text-transform: uppercase;
   letter-spacing: 0.10rem; }
 
+a {
+  color: #2597D0; }
+
 header {
   color: white;
   text-align: center; }
+  header span {
+    font-style: italic;
+    font-weight: 400; }
   header nav a {
-    color: #0C5F8B;
+    color: #2597D0;
     padding: 0.35rem;
     font-size: 1.2rem; }
   header .homepage-title {
-    font-size: 3rem; }
+    font-size: 3rem;
+    margin-top: 0; }
     header .homepage-title a {
       font-weight: 700;
       font-size: 3rem;
-      color: #0C5F8B; }
+      color: #2597D0; }
 
 .cta h2 {
   text-align: center; }
 
 .cta .cta-block {
   text-align: left;
-  background: #2597D0;
+  background: #0C5F8B;
   color: white;
   margin: 1.5rem 0 2.5rem 0;
   padding: 2rem;
@@ -347,8 +354,13 @@ footer {
   padding: 0.75rem; }
   footer nav a {
     padding: 0.35rem;
-    color: #0C5F8B; }
+    color: #2597D0; }
 
 .spacer {
   height: 2rem;
   width: 100%; }
+
+article a {
+  color: #2597D0;
+  text-transform: uppercase;
+  font-weight: 600; }
