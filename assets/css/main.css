@@ -306,10 +306,11 @@ body {
   max-width: 668px;
   padding: 25px; }
 
-h1, h2 {
+h1, h2, h6 {
   font-family: "Crete Round", serif;
   text-transform: uppercase;
-  letter-spacing: 0.10rem; }
+  letter-spacing: 0.10rem;
+  font-weight: 700; }
 
 a {
   color: #2597D0;
